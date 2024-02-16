@@ -1,0 +1,20 @@
+<svg width="59" height="27" viewBox="0 0 59 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 23">
+<g id="Rectangle 1176" filter="url(#filter0_d_136_794)">
+<rect width="58" height="25" rx="12.5" fill="#1F1F1F"/>
+</g>
+<path id="Arrow 3" d="M24.505 15.505C24.2317 15.7784 24.2317 16.2216 24.505 16.495C24.7784 16.7683 25.2216 16.7683 25.495 16.495L24.505 15.505ZM32.7 9C32.7 8.6134 32.3866 8.3 32 8.3L25.7 8.3C25.3134 8.3 25 8.6134 25 9C25 9.3866 25.3134 9.7 25.7 9.7L31.3 9.7L31.3 15.3C31.3 15.6866 31.6134 16 32 16C32.3866 16 32.7 15.6866 32.7 15.3L32.7 9ZM25.495 16.495L32.495 9.49497L31.505 8.50503L24.505 15.505L25.495 16.495Z" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_d_136_794" x="0" y="0" width="59" height="27" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="1" operator="erode" in="SourceAlpha" result="effect1_dropShadow_136_794"/>
+<feOffset dx="2" dy="3"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_136_794"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_136_794" result="shape"/>
+</filter>
+</defs>
+</svg>

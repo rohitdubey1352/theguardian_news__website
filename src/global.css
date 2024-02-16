@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Montserrat+Subrayada:wght@400;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 90rem;
+  height: auto;
+  /* height: 599.25rem; */
+  max-width: 100%;
+  /* margin: auto; */
+  background: url('./assets/Image/bg.png'), lightgray 0% 0% / 50px 50px repeat;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+.copy {
+  position: absolute;
+  bottom: -4.2rem;
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 0.69rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 61.5%;
+  /* 0.53813rem */
+  letter-spacing: 0.105rem;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  margin: 0;
+}
+
+.carousel-item {
+  position: static;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none;
+  stroke-width: 1px;
+}
+
+.readmore {
+  width: 9.5rem;
+  height: 3.40419rem;
+  color: #2B2D42;
+  background: transparent;
+  font-family: 'Montserrat';
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 3.125rem;
+  border: 1px solid #2B2D42;
+  margin-left: 45%;
+}
+
+.btn {
+  width: auto;
+  height: 1.875rem;
+  border-radius: 3.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Montserrat Subrayada;
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 61.5%;
+  letter-spacing: 0.06875rem;
+}
+
+.para {
+  text-align: left;
+  margin-top: -.4rem;
+}
+
+.para span {
+  color: #2B2D42;
+  font-family: 'DM Serif Display';
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 100.5%;
+  margin-right: .4rem;
+}
+
+.para p {
+  color: #000;
+  font-family: 'Montserrat';
+  font-size: .82rem;
+  line-height: 156.5%;
+  letter-spacing: 0.01688rem;
+  margin-top: 1rem;
+}
+
+.chatApp {
+  position: relative;
+}
+
+/* grid-template-columns: repeat(2,1fr); */
+
+.para p::first-letter {
+  color: #2B2D42;
+  font-family: DM Serif Display;
+  font-size: 4rem;
+  font-weight: 400;
+  letter-spacing: 0.08rem;
+}
+
+
+.leftCorner .profile {
+  position: relative;
+  margin-right: 8rem;
+  margin-left: -1rem;
+}
+
+.feat {
+  width: 20.1875rem;
+  height: 2.9375rem;
+  border-radius: 3.125rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feat h3 {
+  font-family: Playfair Display;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 61.5%;
+  margin-right: .8rem;
+  margin-top: .2rem;
+  letter-spacing: 0.025rem;
+
+}
+
+.feat:nth-child(1) {
+  background: #00D563;
+}
+
+.feat:nth-child(2) {
+  color: #fff;
+  background: #9747FF;
+}
+
+.feat:nth-child(3) {
+  background: #fff;
+}
+
+.feat:nth-child(4) {
+  background: #0eccf7;
+}
+
+.feat:nth-child(5) {
+  background: #F02052;
+  background: #e9b200;
+}
+
+@media screen and (max-width: 720px) {
+  body {
+    width: 100vw;
+  }
+  .chatApp {
+    display: none;
+  }
+  .readmore {
+    margin-left: 27%;
+  }
+}
